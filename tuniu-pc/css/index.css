@@ -1,0 +1,2065 @@
+body{
+	font-size:12px;
+	color:#999999;
+}
+/*head begin*/
+.head{
+	height:225px;
+}
+/*roof begin*/
+.head .roof{
+	width:100%;
+	height:60px;
+	background:url(../img/roof.png) no-repeat center;
+	box-sizing:border-box;
+}
+.roof .roof-box{
+	width:1033px;
+	height:60px;
+	margin:0 auto;
+	font-size:0;
+}
+.roof .hot{
+	width:356px;
+	height:60px;
+	background:url(../img/tuniu.gif) no-repeat 0 0;
+}
+.roof .free{
+	width:222px;
+	height:60px;
+	background:url(../img/tuniu.gif) no-repeat 0 -60px;
+}
+.roof .japan{
+	width:224px;
+	height:60px;
+	background:url(../img/tuniu.gif) no-repeat 0 -120px;
+}
+.roof .nation{
+	width:217px;
+	height:60px;
+	background:url(../img/tuniu.gif) no-repeat 0 -180px;
+}
+/*roof end*/
+
+/*login begin*/
+.head .login{
+	height:29px;
+	border-bottom:1px solid #eeeeee;
+	background-color:#f8f8f8;
+}
+.login a{
+	color:#404040;
+}
+ .login .login-box{
+ 	width:1190px;
+ 	height:18px;
+ 	margin:0 auto;
+ }
+ .login-box .load{
+ 	width:72px;
+ 	text-align:center;
+ 	padding-top:4px;
+ 	position:relative;
+ }
+ .load .bglist{
+ 	width:36px;
+ 	height:90px;
+ 	background:url(../img/bg.png) no-repeat;
+ 	position:absolute;
+ 	left:-36px;
+ 	top:-60px;
+ }
+ .bglist .list1,.bglist .list2{
+ 	width:24px;
+ 	height:26px;
+ }
+ .bglist .list1{
+ 	position:absolute;
+ 	left:7px;
+ 	top:21px;
+ }
+ .bglist .list2{
+ 	position:absolute;
+ 	left:7px;
+ 	top:62px;
+ }
+ .load span{
+ 	width:2px;
+ 	height:13px;
+ 	background:url(../img/tuniu.gif) no-repeat -217px -180px;
+ }
+ .login-box .tab{
+ 	width:378px;
+ 	text-align:center;
+ 	line-height:30px;
+ }
+ .tab .vip{
+ 	color:#ff8800;
+ }
+ .tab .select1,.tab .select2{
+ 	width:5px;
+ 	height:3px;
+ 	background:url(../img/tuniu.gif) no-repeat -219px -180px;
+ }
+ .tab .weibo{
+ 	width:18px;
+ 	height:19px;
+ 	background:url(../img/tuniu.gif) no-repeat -356px 0;
+ }
+ .tab .phion{
+ 	width:11px;
+ 	height:19px;
+ 	background:url(../img/tuniu.gif) no-repeat -374px 0;
+ }
+ .tab .weixin{
+ 	width:19px;
+ 	height:19px;
+ 	background:url(../img/tuniu.gif) no-repeat -385px 0;
+ }
+ /*login end*/
+
+/*topnav begin*/
+.topnav{
+	width:100%;
+	height:100px;
+}
+.topnav .topnav-box{
+	width:1231px;
+	height:100px;
+	margin:0 auto;
+}
+.topnav .tuniu{
+	width:192px;
+	height:100px;
+	background:url(../img/where.png) no-repeat;
+}
+.topnav .where{
+	width:61px;
+	height:73px;
+	text-align:left;
+	padding-top:27px;
+	margin-right:62px;
+}
+.where a{
+	color:#000;
+}
+.place a{
+	color:#999;
+}
+.where .place{
+	width:61px;
+	height:16px;
+	background-color:#f3f3f3;
+	margin-top:7px;
+}
+.where .place-ico{
+	width:5px;
+	height:3px;
+	background:url(../img/tuniu.gif) no-repeat -219px -180px;
+}
+.topnav .serch{
+	width:492px;
+	height:40px;
+	background-color:#ff8800;
+	margin-top:30px;
+	position:relative;
+}
+.serch .serch-box{
+	width:422px;
+	height:34px;
+	background-color:#ffffff;
+	margin:3px 26px 3px 3px;
+}
+.serch-box .box-left{
+	width:89px;
+	height:20px;
+	padding-top:12px;
+	border-right:1px solid #e5e5e5;
+	position:relative;
+}
+.box-left .more-ico{
+	width:7px;
+	height:4px;
+	background:url(../img/tuniu.gif) no-repeat -404px 0;
+	position:absolute;
+	left:69px;
+	top:18px;
+}
+.box-right{
+	width:327px;
+	height:22px;
+	text-align:left;
+	position:relative;
+}
+.box-right .ly323{
+	width:192px;
+	height:21px;
+	border:none;
+	margin-right:140px;
+	padding-top:12px;
+}
+.box-right .explain{
+	width:140px;
+	height:34px;
+	position:absolute;
+	left:192px;
+	top:0px;
+}
+.explain .ico-bg{
+	width:34px;
+	height:22px;
+	padding-top:12px;
+	background:url(../img/tuniu.gif) no-repeat -356px -19px;
+	text-align:center;
+}
+.serch .serch-ico{
+	width:17px;
+	height:14px;
+	background:url(../img/tuniu.gif) no-repeat -416px 0;
+	position:absolute;
+	right:24px;
+	top:15px;
+}
+.topnav .hunt{
+	width:65px;
+	text-align:right;
+	position:relative;
+}
+.hunt .hunt-cont{
+	margin-top:40px;
+}
+.hunt .hunt-ico{
+	width:5px;
+	height:3px;
+	background:url(../img/tuniu.gif) no-repeat -219px -180px;
+	position:absolute;
+	left:60px;
+	top:46px;
+}
+.topnav .call{
+	width:225px;
+	height:100px;
+	background:url(../img/call.png) no-repeat;
+}
+.call .call-kf{
+	width:73px;
+	height:12px;
+	margin-top:41px;
+	margin-right:52px;
+	color:#4e4e4e;
+}
+.call .call-ph{
+	width:100px;
+	height:14px;
+	margin-top:7px;
+	margin-right:80px;
+	color:#ff6600;
+	font-weight:bold;
+}
+/*topnav end*/
+
+/*subnav begin*/
+.subnav{
+	height:32px;
+	border-bottom:3px solid #38c249;
+}
+.subnav .subnav-box{
+	width:1189px;
+	height:32px;
+	margin:0 auto;
+}
+.subnav-box a{
+	color:#2b8f08;
+	font-size:16px;
+}
+.subnav-box li{
+	height:24px;
+	padding-top:8px;
+	text-align:left;
+}
+.subnav-box .indexbox{
+	width:84px;
+	background-color:#4ece5a;
+	text-align:center;
+}
+.indexbox a{
+	color:#fff;
+	font-weight:bold;
+}
+.subnav-box .subnav-ico{
+	width:5px;
+	height:3px;
+	background:url(../img/tuniu.gif) no-repeat -411px 0;
+	position:absolute;
+	right:0;
+	top:17px;
+}
+.subnav-box .teambox{
+	margin-left:23px;
+}
+.subnav-box .teambox,.subnav-box .selfbox{
+	width:61px;
+	position:relative;
+}
+.subnav-box .shipbox,.subnav-box .hotelbox,.subnav-box .plainbox,.subnav-box .planbox{
+	width:45px;
+	position:relative;
+}
+.subnav-box .drivebox{
+	width:44px;
+	position:relative;
+}
+.subnav-box .offerbox{
+	width:46px;
+	position:relative;
+}
+.subnav-box .linebox{
+	width:64px;
+}
+.linebox .subnav-item{
+	position:relative;
+}
+.linebox .subnav-item .quality{
+	width:25px;
+	height:16px;
+	background:url(../img/tuniu.gif) no-repeat -390px -19px;
+	position:absolute;
+	left:60px;
+	top:-16px;
+}
+.subnav-box .ticketbox{
+	width:44px;
+	position:relative;
+}
+.ticketbox .subnav-item .wifi{
+	width:25px;
+	height:16px;
+	background:url(../img/tuniu.gif) no-repeat -390px -35px;
+	position:absolute;
+	left:30px;
+	top:-8px;
+}
+.plainbox .subnav-item .heat{
+	width:19px;
+	height:15px;
+	background:url(../img/tuniu.gif) no-repeat -390px -51px;
+	position:absolute;
+	left:30px;
+	top:-8px;
+}
+.subnav-box .trainbox{
+	width:48px;
+}
+.subnav-box .madebox{
+	width:58px;
+	text-align:left;
+	position:relative;
+}
+.subnav-box .fanancebox{
+	width:42px;
+	margin-left:20px;
+	position:relative;
+}
+/*subnav end*/
+/*head end*/
+
+/*content begin*/
+/*banner begin*/
+.content .banner{
+	width:100%;
+	height:440px;
+	background:url(../img/banner.png) no-repeat center;
+}
+.banner .banner-box{
+	width:1190px;
+	height:440px;
+	margin:0 auto;
+	position:relative;
+}
+.banner-box .leftnav{
+	width:226px;
+	height:420px;
+	background-color:#ffffff;
+	position:absolute;
+	left:0;
+	top:10px;
+}
+.leftnav .nav-left{
+	width:85px;
+	height:420px;
+}
+.nav-lt a{
+	color:#ffffff;
+}
+.nav-left .nav-lt{
+	height:51px;
+	padding-top:8px;
+	background-color:#38414c;
+	border-bottom:1px dashed #202020;
+	text-align:center;
+}
+.nav-left .nav-lt1{
+	height:52px;
+	padding-top:8px;
+	text-align:center;
+}
+.nav-lt1 a{
+	color:#2eae94;
+	font-weight:bold;
+}
+.nav-left li a:nth-of-type(1){
+	margin-left:35px;
+}
+.nav-lt1 .go{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -222px -60px;
+}
+.nav-lt .fly{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -242px -60px;
+}
+.nav-lt .house{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -262px -60px;
+}
+.nav-lt .super{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -376px -74px;
+}
+.nav-lt .train{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -222px -80px;
+}
+.nav-lt .ship{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -242px -80px;
+}
+.nav-lt .play{
+	width:20px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -262px -80px;
+}
+.leftnav .nav-right{
+	width:128px;
+	height:420px;
+	padding:0 6px 0 7px;
+}
+.nav-right .nav-rt{
+	width:128px;
+	height:36px;
+	padding-top:9px;
+	border-bottom:1px dashed #dcdcdc;
+	position:relative;
+}
+.nav-rt .rt-more,.nav-rt1 .rt-more{
+	width:4px;
+	height:7px;
+	background:url(../img/tuniu.gif) no-repeat -404px -4px;
+	display:block;
+	position:absolute;
+	right:0;
+	top:13px;
+}
+.nav-rt .rt-hot{
+	width:22px;
+	height:14px;
+	background:url(../img/tuniu.gif) no-repeat -282px -60px;
+	display:block;
+	position:absolute;
+	left:80px;
+	top:8px;
+}
+.nav-rt .rt-price{
+	width:29px;
+	height:14px;
+	background:url(../img/tuniu.gif) no-repeat -304px -60px;
+	display:block;
+	position:absolute;
+	left:64px;
+	top:8px;
+}
+.nav-rt .rt-place{
+	width:47px;
+	height:14px;
+	background:url(../img/tuniu.gif) no-repeat -333px -60px;
+	display:block;
+	position:absolute;
+	left:64px;
+	top:8px;
+}
+.nav-rt .rt-cut{
+	width:47px;
+	height:14px;
+	background:url(../img/tuniu.gif) no-repeat -282px -74px;
+	display:block;
+	position:absolute;
+	left:71px;
+	top:8px;
+}
+.nav-rt .rt-grab{
+	width:47px;
+	height:14px;
+	background:url(../img/tuniu.gif) no-repeat -329px -74px;
+	display:block;
+	position:absolute;
+	left:71px;
+	top:8px;
+}
+.nav-right .nav-rt1{
+	width:128px;
+	height:41px;
+	padding-top:9px;
+	position:relative;
+}
+.nav-rt dt,.nav-rt dd{
+	text-align:left;
+}
+.nav-rt dt a{
+	font-weight:bold;
+	color:#333333;
+}
+.nav-rt dt{
+	padding-left:4px;
+}
+.nav-rt dd{
+	margin-top:4px;
+}
+.nav-right dl:nth-last-of-type(1){
+	border-bottom:none;
+}
+.banner-box .link{
+	width:706px;
+	height:147px;
+	position:absolute;
+	left:241px;
+	bottom:10px;
+}
+.link-top li{
+	width:116px;
+	height:18px;
+	line-height:18px;
+	background-color:#ffb5c3;
+	text-align:center;
+}
+.link-top li a{
+	color:#702634;
+}
+.link-top .active-top{
+	background-color:#4c0210;
+}
+.active-top a{
+	color:#ffb5c3;
+}
+.link .link-bot{
+	margin-top:7px;
+}
+.link-bot li{
+	width:97px;
+	height:122px;
+	position:relative;
+}
+.link-bot .link-msg{
+	width:30px;
+	height:34px;
+	position:absolute;
+	left:10px;
+	top:9px;
+}
+.link-msg .gr{
+	color:#099c17;
+}
+.link-msg  .bl{
+	color:#232122;
+}
+.link-bot .link-img{
+	width:122px;
+	height:122px;
+	position:relative;
+}
+.link-img .img-ico{
+	width:44px;
+	height:44px;
+	background:url(../img/tuniu.gif) no-repeat -224px -100px;
+	position:absolute;
+	left:2px;
+	top:4px;
+}
+.link-img .add{
+	width:52px;
+	height:14px;
+	position:absolute;
+	left:55px;
+	top:11px;
+}
+.banner-box .msg{
+	width:230px;
+	height:420px;
+	background-color:#ffffff;
+	position:absolute;
+	right:0;
+	top:10px;
+}
+.msg .percent{
+	width:210px;
+	height:73px;
+	padding:5px 15px 0 5px;
+}
+.percent .perct{
+	width:78px;
+	height:64px;
+	background:url(../img/tuniu.gif) no-repeat 0 -240px;
+}
+.percent .per-msg{
+	width:132px;
+	height:55px;
+	line-height:23px;
+	padding-top:9px;
+}
+.per-msg .bold{
+	font-weight:bold;
+}
+.msg .actical{
+	width:210px;
+	height:66px;
+	line-height:22px;
+	border-bottom:1px dashed #ececec;
+	padding:11px 10px 17px 10px;
+}
+.actical a{
+	color:#404040;
+}
+.msg .sun{
+	width:195px;
+	height:43px;
+	padding:19px 15px 19px 20px;
+}
+.sun li{
+	width:48px;
+	height:46px;
+}
+.sun a{
+	color:#656565;
+}
+.sun a:nth-of-type(1){
+	width:47px;
+	height:34px;
+}
+.sun .sun-jn{
+	background:url(../img/tuniu.gif) no-repeat -268px -100px;
+}
+.sun .sun-mn{
+	background:url(../img/tuniu.gif) no-repeat -315px -100px;
+}
+.sun .sun-sv{
+	background:url(../img/tuniu.gif) no-repeat -362px -100px;
+}
+.msg .hotting{
+	width:230px;
+	height:92px;
+}
+.hotting .hottop{
+	width:230px;
+	height:12px;
+	background:url(../img/tuniu.gif) no-repeat 0 -304px;
+}
+.hotting .ht{
+	width:220px;
+	height:50px;
+	padding:12px 5px 18px 5px;
+}
+.ht .ht-bg{
+	width:110px;
+	height:20px;
+	line-height:20px;
+	background:url(../img/tuniu.gif) no-repeat -78px -240px;
+}
+.msg .tn{
+	width:183px;
+	height:74px;
+	padding:0 27px 0 20px;
+}
+.tn .tn-ico{
+	width:145px;
+	height:74px;
+	background:url(../img/tuniu.gif) no-repeat 0 -316px;
+}
+.tn .page{
+	width:37px;
+	height:38px;
+	background:url(../img/tuniu.gif) no-repeat -224px -144px;
+	margin-top:20px;
+}
+.sidebar{
+	width:41px;
+	height:631px;
+	position:absolute;
+	right:-10px;
+	top:98px;
+}
+.sidebar .side{
+	width:41px;
+	height:235px;
+}
+.sidebar .bar{
+	width:41px;
+	height:396px;
+	position:relative;
+}
+.bar .tnapp{
+	width:41px;
+	height:40px;
+	position:absolute;
+	left:0;
+	top:40px;
+}
+.bar .mytn{
+	width:41px;
+	height:130px;
+	position:absolute;
+	left:0;
+	top:80px;
+}
+.bar .icolike{
+	width:41px;
+	height:40px;
+	position:absolute;
+	left:0;
+	top:210px;
+}
+.bar .icotext{
+	width:41px;
+	height:40px;
+	position:absolute;
+	left:0;
+	top:250px;
+}
+.bar .icopen{
+	width:41px;
+	height:40px;
+	position:absolute;
+	left:0;
+	top:290px;
+}
+.bar .icok{
+	width:41px;
+	height:40px;
+	position:absolute;
+	left:0;
+	top:330px;
+}
+/*banner end*/
+
+/*main begin*/
+.content .main{
+	width:1190px;
+	margin:0 auto;
+}
+/*main-left begin*/
+.main-left a{
+	font-size:14px;
+	color:#222222;
+}
+.main .main-left{
+	width:950px;
+	height:5148px;
+}
+.main-left .value{
+	height:207px;
+}
+.value .val-type{
+	height:34px;
+}
+.val-type .type-lt{
+	width:82px;
+	height:34px;
+	background:url(../img/tuniu.gif) no-repeat -81px -265px;
+	display:inline-block;
+}
+.val-type .type-rt{
+	width:860px;
+	height:31px;
+	border-bottom:3px solid #eceef4;
+	padding-left:8px;
+	position:relative;
+}
+.val-type a{
+	font-size:16px;
+	color:#222222;
+}
+.type-rt .rt-box{
+	width:92px;
+	height:31px;
+	line-height:31px;
+	display:inline-block;
+}
+.mico a{
+	color:#999999;
+}
+.mico .mico-ico{
+	width:5px;
+	height:9px;
+	background:url(../img/tuniu.gif) no-repeat -262px -144px;
+	display:inline-block;
+	margin-left:6px;
+}
+.type-rt .mico{
+	position:absolute;
+	right:1px;
+	top:8px;
+	height:12px;
+}
+.val-item{
+	height:158px;
+}
+.val-item .mgtext{
+	width:225px;
+	height:125px;
+	position:relative;
+}
+.mgtext .mgself{
+	width:225px;
+	height:125px;
+	display:block;
+}
+.mgtext .last{
+	width:41px;
+	height:18px;
+	background:url(../img/tuniu.gif) no-repeat -219px -183px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.mgtext .ms{
+	width:41px;
+	height:18px;
+	background:url(../img/tuniu.gif) no-repeat -219px -201px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.mgtext .icon-box{
+	width:120px;
+	height:125px;
+	position:absolute;
+	left:105px;
+	top:0;
+}
+.icon-box .icon-bg{
+	width:120px;
+	height:125px;
+	background-color:#fff;
+	opacity:0.9;
+}
+.icon-box .icon-text{
+	width:112px;
+	height:108px;
+	padding:7px 0 10px 8px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.icon-text dt .bk-ico{
+	width:17px;
+	height:19px;
+	background-color:#38414c;
+	display:inline-block;
+	text-align:center;
+}
+.icon-text .conbox{
+	height:36px;
+	padding:7px 0 9px;
+	line-height:18px;
+}
+.icon-text a{
+	font-size:12px;
+}
+.icon-text .time{
+	width:17px;
+	height:19px;
+	line-height:19px;
+	font-size:12px;
+	color:#222222;
+}
+.icon-text dd a{
+	color:#222222;
+}
+.icon-text dd span{
+	color:#fe7b00;
+	font-size:12px;
+}
+dd del{
+	font-size:10px;
+	color:#999999;
+}
+dd .zhe{
+	width:43px;
+	height:15px;
+	background:url(../img/tuniu.gif) no-repeat -218px -219px;
+	text-align:center;
+}
+.main-left .hot{
+	height:473px;
+}
+.hot .hot-tit{
+	height:30px;
+	border-bottom:3px solid #e15b39;
+}
+.hot-tit .marth{
+	width:86px;
+	height:30px;
+	background:url(../img/tuniu.gif) no-repeat -268px -134px;
+}
+.hot-tit .marth-item{
+	width:628px;
+	height:30px;
+	padding:0 91px 0 145px;
+}
+.marth-item .marit{
+	width:88px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+.marth-item .marth-item .maritl{
+	width:94px;
+}
+.marth-item .maractive{
+	color:#d74568;
+	font-weight:bold;
+	border-bottom:3px solid #d74568
+}
+.hot .hot-cont{
+	width:950px;
+	height:410px;
+	background:url(../img/marth.png) no-repeat; 
+	position:relative;
+}
+.hot-cont .chief{
+	width:213px;
+	height:243px;
+	position:absolute;
+	left:6px;
+	top:155px;
+}
+.chief .chf1{
+	width:53px;
+	height:37px;
+	background:url(../img/mar1.png) no-repeat;
+	padding:11px 47px 7px 3px;
+	line-height:18px;
+}
+.chief .chf{
+	width:53px;
+	height:37px;
+	background:url(../img/mar1.png) no-repeat;
+	padding:11px 47px 7px 3px;
+	line-height:18px;
+}
+.chief .mar2{
+	background:url(../img/mar2.png) no-repeat;
+}
+.chief .mar3{
+	background:url(../img/mar3.png) no-repeat;
+}
+.chief .mar4{
+	background:url(../img/mar4.png) no-repeat;
+}
+.chief .mar5{
+	background:url(../img/mar5.png) no-repeat;
+}
+.chief .mar6{
+	background:url(../img/mar6.png) no-repeat;
+}
+.chief .mar7{
+	background:url(../img/mar7.png) no-repeat;
+}
+.chief .mar8{
+	background:url(../img/mar8.png) no-repeat;
+}
+.chief a{
+	display:block;
+	color:#fff;
+	font-size:12px;
+}
+.hot-cont .detail{
+	width:713px;
+	height:367px;
+	position:absolute;
+	left:225px;
+	top:20px;
+}
+.detail li{
+	width:215px;
+	height:146px;
+	background-color:#fff;
+	padding:10px 9px 24px 9px;
+}
+.detail .dtl{
+	width:215px;
+	height:120px;
+	position:relative;
+}
+.detail .dtl1{
+	background:url(../img/dtl1.png) no-repeat;
+}
+.detail .dtl2{
+	
+	background:url(../img/dtl2.png) no-repeat;
+}
+.detail .dtl3{
+	background:url(../img/dtl3.png) no-repeat;
+}
+.detail .dtl4{
+	background:url(../img/dtl4.png) no-repeat;
+}
+.detail .dtl5{
+	background:url(../img/dtl5.png) no-repeat;
+}
+.detail .dtl6{
+	background:url(../img/dtl6.png) no-repeat;
+}
+.per1{
+	width:64px;
+	height:18px;
+	background:url(../img/tuniu.gif) no-repeat -261px -164px;
+	text-align:center;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.dtl .per2{
+	width:64px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -171px -575px;
+	text-align:center;
+	position:absolute;
+	right:0;
+	top:18px;
+}
+.per3{
+	width:64px;
+	height:20px;
+	background:url(../img/tuniu.gif) no-repeat -171px -575px;
+	text-align:center;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.dtl span,.day span{
+	font-size:12px;
+	color:#fff;
+	line-height:18px;
+}
+.dtl .dtl-box{
+	width:215px;
+	height:40px;
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.dtl-box .dtl-bg{
+	width:215px;
+	height:40px;
+	background-color:#000000;
+	opacity:0.3;
+}
+.dtl-box .dtl-ct{
+	width:206px;
+	height:36px;
+	padding:3px 4px 1px 5px;
+	color:#fff;
+	position:absolute;
+	right:0;
+	bottom:0;
+	font-size:12px;
+	line-height:18px;
+}
+.detail .price{
+	width:205px;
+	height:16px;
+	padding:10px 5px 0 5px;
+	font-size:12px;
+}
+.prlf a,.prlf span{
+	color:#ff6600
+}
+.price .prrt{
+	font-size:12px;
+	color:#999;
+}
+.prlf del{
+	font-size:10px;
+}
+.main-left .long{
+	height:448px;
+}
+.main-left .left-tit{
+	width:960px;
+	border-bottom:3px solid #eceef4;
+}
+.long .chif-tit .chif-tmg{
+	display:inline-block;
+	width:90px;
+	height:32px;
+	background:url(../img/tuniu.gif) no-repeat -158px -259px;
+	margin-right:123px;
+}
+.main-left .tit-item{
+	width:735px;
+	height:32px;
+	text-align:left;
+	position:relative;
+}
+.tit-item li{
+	margin-right:28px;
+	height:32px;
+	line-height:32px;
+}
+.tit-active a{
+	color:#517ac0;
+}
+.tit-item .tit-active {
+    height: 32px;
+    border-bottom: 3px solid #517ac0;
+}
+.produce{
+	width:68px;
+	text-align:right;
+	font-size:12px;
+}
+.produce a{
+	color:#999;
+}
+.produce .moreico{
+	width:5px;
+	height:9px;
+	background:url(../img/tuniu.gif) no-repeat -262px -144px;
+}
+.long-cont{
+	height:413px;
+}
+.long-cont .chif-cont{
+	width:215px;
+}
+.chif-cont .hotplay{
+	width:202px;
+	height:99px;
+	padding:13px 13px 8px 0;
+	border-bottom:1px dashed #d7d7d7;
+}
+.hotplay .playway{
+	width:202px;
+	height:26px;
+	line-height:26px;
+	font-size:12px;
+	font-weight:bold;
+	padding-left:10px;
+}
+.hotplay .spot{
+	width:202px;
+	height:73px;
+}
+.spot li{
+	width:91px;
+	height:24px;
+	line-height:24px;
+	padding-left:10px;
+}
+.spot li span{
+	width:2px;
+	height:2px;
+	background:url(../img/tuniu.gif) no-repeat -356px -58px;
+	margin-right:4px;
+}
+.chif-cont .madai{
+	width:215px;
+	height:292px;
+	position:relative;
+}
+.madai .baodao{
+	width:88px;
+	height:36px;
+	line-height:18px;
+	position:absolute;
+	left:15px;
+	top:22px;
+	font-size:14px;
+}
+.long-cont .ct-right{
+	width:710px;
+	height:414px;
+}
+.ct-right li{
+	width:225px;
+	height:155px;
+	padding-top:15px;
+	padding-bottom:21px;
+}
+.ct-right .day,.cont-rt .day{
+	width:225px;
+	height:127px;
+	position:relative;
+}
+.day .day-box{
+	width:225px;
+	height:40px;
+	position:absolute;
+	left:0;
+	top:87px;
+}
+.day-box .day-bg{
+	width:225px;
+	height:40px;
+	background-color:#222222;
+	opacity:0.5;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.day-box .day-ct{
+	width:215px;
+	height:36px;
+	line-height:19px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	font-size:12px;
+	color:#fff;
+	padding:3px 5px 1px 5px;
+}
+.day .price{
+	width:205px;
+	height:16px;
+	padding:10px 5px 0 5px;
+	font-size:12px;
+}
+.price span{
+	font-size:12px;
+}
+.prlf a{
+	color:#ff6600;
+}
+.prlf del{
+	font-size:10px;
+}
+.main-left .stub{
+	height:448px;
+}
+.stub .chif-tit .chif-tmg{
+	width:90px;
+	background:url(../img/tuniu.gif) no-repeat -145px -316px;
+}
+.stub .tit-item{
+	width:735px;
+	height:32px;
+	text-align:left;
+	position:relative;
+}
+.tit-active a{
+	color:#3aa860;
+}
+.tit-item .tit-active{
+	height:32px;
+	border-bottom:3px solid #3aa860;
+}
+.chif-cont .rihan{
+	width:215px;
+	height:285px;
+	position:relative;
+}
+.rihan .baodao{
+	width:90px;
+	height:36px;
+	line-height:18px;
+	position:absolute;
+	left:15px;
+	top:22px;
+	font-size:14px;
+}
+.stub-cont{
+	height:408px;
+}
+.stub-cont .ct-right{
+	width:710px;
+}
+.day .per{
+	width:64px;
+	height:18px;
+	background:url(../img/tuniu.gif) no-repeat -261px -164px;
+	text-align:center;
+	position:absolute;
+	right:0;
+	top:20px;
+}
+.main-left .inland{
+	height:448px;
+}
+.inland .inland-tit{
+	width:960px;
+	height:32px;
+	border-bottom:3px solid #eceef4;
+}
+.inland-tit .chif-tit{
+	width:90px;
+	height:32px;
+}
+.inland .chif-cont .hotplay{
+	width:202px;
+	height:99px;
+	padding:13px 13px 8px 0;
+	border-bottom:1px dashed #d7d7d7;
+}
+.inland .chif-tit .chif-tmg{
+	width:90px;
+	background:url(../img/tuniu.gif) no-repeat -145px -346px;
+}
+.main-left .rim{
+	height:449px;
+}
+.rim .rim-tit{
+	width:960px;
+	height:32px;
+	border-bottom:3px solid #eceef4;
+}
+.chif-tit .chif-tmg{
+	width:90px;
+	height:32px;
+	background:url(../img/tuniu.gif) no-repeat -144px -378px;
+	margin-right:123px;
+}
+.rim .tit-item{
+	width:735px;
+	height:32px;
+	text-align:left;
+	position:relative;
+}
+.tit-active a{
+	color:#517ac0;
+}
+.tit-item .tit-active{
+	height:32px;
+	border-bottom:3px solid #517ac0;
+}
+.self .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -53px -420px;
+}
+.theme .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -54px -389px;
+}
+.main-left .vise{
+	height:263px;
+}
+.vise .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -53px -450px;
+}
+.cont-chif ul{
+	width:202px;
+	height:48px;
+	padding:16px 14px 9px 0;
+	border-bottom:1px dashed #C0C0C0;
+}
+.cont-chif li{
+	width:81px;
+	height:24px;
+	line-height:24px;
+	padding-left:9px;
+}
+.cont-chif li span{
+	width:2px;
+	height:2px;
+	background:url(../img/tuniu.gif) no-repeat -356px -58px;
+	margin-right:4px;
+}
+.cont-chif .expel{
+	width:215px;
+	height:148px;
+	position:relative;
+}
+.expel .text-box{
+	width:112px;
+	height:36px;
+	line-height:18px;
+	padding-left:12px;
+	position:absolute;
+	left:0;
+	top:22px;
+}
+.text-box a{
+	font-size:12px;
+}
+.text-box span{
+	display:block;
+	font-size:12px;
+	color:#999;
+}
+.vise-cont .cont-rt{
+	width:709px;
+	height:216px;
+	padding-top:14px;
+}
+.cont-rt li{
+	width:222px;
+	height:161px;
+	border:1px solid #ECEEF4;
+}
+.cont-rt .site{
+	width:204px;
+	height:46px;
+	background-color:#F4F5F9;
+	padding:16px 0 0 18px;
+	position:relative;
+}
+.site .span-box{
+	width:84px;
+	height:36px;
+	position:absolute;
+	right:15px;
+	top:10px;
+	text-align:right;
+}
+.site span{
+	display:block;
+	font-size:12px;
+	color:#666666;
+}
+.site a{
+	font-size:16px;
+	color:#666666;
+}
+.cont-rt .site-msg{
+	width:195px;
+	height:38px;
+	padding:15px 12px 0 15px;
+	line-height:20px;
+	font-size:12px;
+}
+.cont-rt .sale{
+	margin-left:5px;
+}
+.cont-rt .sale span{
+	font-size:12px;
+	color:#FF6600;
+}
+.cont-rt .sale a{
+	font-size:16px;
+	color:#FF6600;
+}
+.like span{
+	font-size:12px;
+	color:#999;
+	margin-left:70px;
+}
+.main-left .drive{
+	height:267px;
+}
+.drive .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -53px -482px;
+}
+.main-left .house{
+	height:263px;
+}
+.house .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -145px -440px;
+}
+.main-left .ticket{
+	height:267px;
+}
+.ticket .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -144px -469px;
+}
+.main-left .local{
+	height:268px;
+}
+.local .chif-tit .chif-tmg{
+	background:url(../img/tuniu.gif) no-repeat -142px -501px;
+}
+.main-left .guide{
+	height:452px;
+}
+.guide .guide-tit{
+	height:32px;
+	border-bottom:1px solid #ECEEF4;
+}
+.guide-tit .tit-ico{
+	display:block;
+	width:92px;
+	height:32px;
+	background:url(../img/tuniu.gif) no-repeat -52px -514px;
+}
+.guide-tit .tit-nav{
+	width:218px;
+	height:32px;
+}
+.tit-sub span{
+	width:92px;
+	height:32px;
+	line-height:32px;
+	font-size:12px;
+	margin-right:34px;
+}
+.tit-sub a{
+	font-size:16px;
+	color:#2E9900;
+	line-height:32px;
+}
+.guide .guide-nav{
+	width:950px;
+	height:32px;
+	padding:15px 0 10px;
+}
+.guide-nav .nav-item{
+	width:600px;
+	height:32px;
+}
+.nav-item li{
+	width:120px;
+	height:32px;
+	line-height:32px;
+	text-align:center;
+}
+.nav-item .active-nav{
+	width:120px;
+	height:32px;
+	background-color:#2E9900;
+	color:#fff;
+}
+.guide .guide-cont{
+	height:361px;
+}
+.guide-cont .guide-box{
+	width:225px;
+	height:320px;
+	position:relative;
+}
+.guide-cont span{
+	width:160px;
+	height:12px;
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	left:20px;
+	bottom:10px;
+}
+.guide-box1 .span{
+	position:absolute;
+	left:20px;
+	top:128px;
+}
+.guide-cont .guide-box1{
+	width:226px;
+	height:320px;
+	position:relative;
+}
+/*main-left end*/
+
+/*main-right begin*/
+.main .main-right{
+	width:225px;
+}
+.main-right .active{
+	height:207px;
+}
+.active .active-tit{
+	width:68px;
+	height:32px;
+	background:url(../img/tuniu.gif) no-repeat -251px -259px;
+}
+.active ul{
+	width:197px;
+	height:138px;
+	padding:7px 0 28px 9px;
+	line-height:27px;
+}
+.active li{
+	font-size:12px;
+	color:#7A6666;
+}
+.main-right .menu{
+	height:291px;
+	background-color:#F6F6F6;
+}
+.menu li{
+	width:197px;
+	height:67px;
+	border-bottom:1px dashed #E3E4E8;
+	padding:16px 18px 13px 10px;
+}
+.menu div{
+	width:110px;
+	height:53px;
+	font-size:14px;	
+	padding-top:17px;
+}
+.menu span{
+	display:block;
+	font-size:12px;	
+	color:#B7B7B7;
+	margin-top:6px;
+}
+.menu .pic1{
+	width:72px;
+	height:55px;
+	background:url(../img/tuniu.gif) no-repeat -334px -269px;
+}
+.menu .pic2{
+	width:72px;
+	height:55px;
+	background:url(../img/tuniu.gif) no-repeat -514px -385px;
+}
+.menu .pic3{
+	width:72px;
+	height:53px;
+	background:url(../img/tuniu.gif) no-repeat -514px -457px;
+}
+.main-right .list{
+	height:474px;
+	background-color:#F6F6F6;
+}
+.list li{
+	width:177px;
+	height:57px;
+	border-bottom:1px dashed #E3E4E8;
+	padding:17px 28px 23px 20px;
+}
+.list div{
+	width:116px;
+	height:58px;
+	font-size:14px;	
+	padding-top:12px;
+}
+.list span{
+	display:block;
+	font-size:12px;	
+	color:#B7B7B7;
+	margin-top:6px;
+}
+.list .list-pic1{
+	width:61px;
+	height:48px;
+	background:url(../img/tuniu.gif) no-repeat -235px -471px;
+}
+.list .list-pic2{
+	width:61px;
+	height:46px;
+	background:url(../img/tuniu.gif) no-repeat -495px -527px;
+}
+.list .list-pic3{
+	width:61px;
+	height:46px;
+	background:url(../img/tuniu.gif) no-repeat -495px -585px;
+}
+.list .list-pic4{
+	width:61px;
+	height:58px;
+	background:url(../img/tuniu.gif) no-repeat -495px -643px;
+}
+.list .list-pic5{
+	width:61px;
+	height:58px;
+	background:url(../img/tuniu.gif) no-repeat -434px -612px;
+}
+.list .list-li{
+	border-bottom:none;
+}
+.main-right .bang{
+	width:225px;
+	height:464px;
+	padding-top:22px;
+	background-color:#F6F6F6;
+}
+.bang .bang-tit{
+	width:70px;
+	height:31px;
+	background:url(../img/tuniu.gif) no-repeat -51px -547px;
+	margin-left:10px;
+}
+.bang .bang-nav{
+	width:204px;
+	height:30px;
+	padding-left:10px;
+	padding-right:11px;
+}
+.bang-nav li{
+	width:60px;
+	height:30px;
+	border-bottom:3px solid #EDEEF3;
+	line-height:30px;
+	text-align:center;
+	font-size:12px;
+}
+.bang-nav .active-li{
+	color:#4ECF5B;
+	border-bottom:3px solid #4ECF5B;
+}
+.bang .bang-cont{
+	width:204px;
+	height:375px;
+	background-color:#fff;
+	margin-left:10px;
+	margin-top:16px;
+}
+.bang-cont li{
+	width:204px;
+	height:60px;
+}
+.bang-cont li .bang-pic{
+	width:60px;
+	height:60px;
+}
+.bang-cont li .pic-msg{
+	width:134px;
+	height:60px;
+	padding-left:10px;
+	font-size:12px;
+}
+.pic-msg dt,.pic-msg dt{
+	line-height:20px;
+}
+.main-right .coupon{
+	width:203px;
+	height:354px;
+	background-color:#F6F6F6;
+	padding:13px 12px 0 10px;
+}
+.coupon .coupon-tit{
+	width:80px;
+	height:40px;
+	background:url(../img/tuniu.gif) no-repeat -145px -533px;
+}
+.coupon .coupon-cont{
+	width:203px;
+	height:305px;
+	background-color:#fff;
+}
+.coupon-cont li{
+	width:203px;
+	height:76px;
+	border-bottom:1px dashed #74888C;
+}
+.coupon-cont li .coupon-pic1{
+	width:82px;
+	height:76px;
+	background:url(../img/tuniu.gif) no-repeat -318px -339px;
+}
+.coupon-cont li .coupon-pic2{
+	width:82px;
+	height:76px;
+	background:url(../img/tuniu.gif) no-repeat 0 -580px;
+}
+.coupon-cont li .coupon-pic3{
+	width:82px;
+	height:76px;
+	background:url(../img/tuniu.gif) no-repeat 0 -656px;
+}
+.coupon-cont li .coupon-pic4{
+	width:82px;
+	height:76px;
+	background:url(../img/tuniu.gif) no-repeat -82px -600px;
+}
+.coupon-cont li .cp-msg{
+	width:121px;
+	height:51px;
+	font-size:12px;
+	padding-top:25px;
+}
+.cp-msg span{
+	display:block;
+	color:#9C9C9C;
+	line-height:18px;
+}
+.coupon-cont .cp-li{
+	border-bottom:none;
+}
+.main-right .ad{
+	height:167px;
+	position:relative;
+}
+.ad .ad-box{
+	width:124px;
+	height:20px;
+	background-color:#7DCCEA;
+	position:absolute;
+	left:9px;
+	top:63px;
+	font-size:12px;
+	line-height:20px;
+	color:#fff;
+}
+.main-right .pop{
+	height:139px;
+	background-color:#F6F6F6;
+}
+.pop .pop-tit{
+	height:17px;
+	padding-top:16px;
+	padding-left:18px;
+	font-size:12px;
+	font-weight:bold;
+}
+.pop-tit span{
+	width:18px;
+	height:16px;
+	display:inline-block;
+}
+.pop-tit .page-lt{
+	background:url(../img/tuniu.gif) no-repeat -415px -16px;
+	margin-left:90px;
+}
+.pop-tit .page-rt{
+	background:url(../img/tuniu.gif) no-repeat -416px -32px;
+}
+.pop ul{
+	width:212px;
+	height:79px;
+	padding:15px 0 0 12px;
+}
+.pop ul li{
+	width:56px;
+	height:79px;
+}
+.pop ul div{
+	width:56px;
+	height:23px;
+	text-align:center;
+	font-size:12px;
+	margin-top:12px;
+}
+.main-right .comment{
+	height:434px;
+	background-color:#F6F6F6;
+}
+.comment .comment-tit{
+	width:214px;
+	height:26px;
+	padding:18px 0 0 10px;
+	font-size:12px;
+	font-weight:bold;
+}
+.comment ul{
+	width:224px;
+	height:408px;
+}
+.comment li{
+	width:224px;
+	height:194px;
+}
+.comment li .user{
+	width:208px;
+	height:28px;
+	background-color:#EEEFF2;
+	padding-left:16px;
+	font-size:12px;
+	color:#999999;
+}
+.comment li .tour{
+	width:188px;
+	height:80px;
+	font-size:12px;
+	line-height:18px;
+	padding:0 20px 0 16px;
+}
+.comment li .judeg{
+	width:188px;
+	height:86px;
+	font-size:12px;
+	color:#999;
+	line-height:18px;
+	padding:0 20px 0 16px;
+}
+.main-right .holiday{
+	height:190px;
+}
+.holiday div{
+	width:109px;
+	height:190px;
+}
+.main-right .serve{
+	height:255px;
+}
+.serve li{
+	width:212px;
+	height:76px;
+	background-color:#F6F6F6;
+	padding-left:12px;
+}
+.serve li .serve-pic{
+	width:95px;
+	height:76px;
+}
+.serve .pic-name{
+	width:117px;
+	height:50px;
+	text-align:center;
+	font-size:14px;
+	line-height:22px;
+	padding-top:26px;
+}
+.pic-name span{
+	display:block;
+	color:#76C9EB;
+}
+/*main-right end*/
+
+/*partner begin*/
+.partner{
+	width:1196px;
+	height:502px;
+	margin:0 auto;
+}
+.partner .partner-tit{
+	width:1190px;
+	height:30px;
+	border-bottom:3px solid #666666;
+}
+.partner-tit .tit-chif{
+	width:100px;
+	height:30px;
+	background:url(../img/tuniu.png) no-repeat -236px -291px;
+}
+.partner .partner-cont{
+	height:448px;
+	padding-top:21px;
+}
+.partner-cont ul{
+	height:89px;
+}
+.partner-cont ul li{
+	height:74px;
+	text-align:center;
+	padding-top:15px;
+}
+.partner-cont .pt-box1{
+	width:133px;
+	height:54px;
+}
+.partner-cont .pt-box2{
+	width:118px;
+	height:54px;
+}
+.partner-cont .pt-box3{
+	width:154px;
+	height:54px;
+}
+.partner-cont .pt-box4{
+	width:112px;
+	height:54px;
+}
+.partner-cont .pt-box5{
+	width:134px;
+	height:54px;
+}
+.partner-cont .pt-box6{
+	width:129px;
+	height:54px;
+}
+.partner-cont .pt-box7{
+	width:126px;
+	height:54px;
+}
+.partner-cont .pt-box7{
+	width:126px;
+	height:54px;
+}
+.partner-cont .name{
+	height:35px;
+	text-align:center;
+	font-size:12px;
+}
+.partner-cont .sure{
+	height:72px;
+	padding-top:57px;
+}
+.sure li{
+	width:129px;
+	height:72px;
+	text-align:center;
+}
+.sure li .sureico{
+	width:25px;
+	height:23px;
+	margin-bottom:10px;
+	margin-left:54px;
+}
+.sure li .sure-ico{
+	background:url(../img/tuniu.gif) no-repeat -354px -134px;
+}
+.sure li .sure-ico1{
+	background:url(../img/tuniu.gif) no-repeat -279px -612px;
+}
+.sure li .sure-ico2{
+	background:url(../img/tuniu.gif) no-repeat -279px -635px;
+}
+.sure li .sure-ico3{
+	background:url(../img/tuniu.gif) no-repeat -279px -657px;
+}
+.sure li .sure-ico4{
+	background:url(../img/tuniu.gif) no-repeat -304px -612px;
+}
+.sure li .sure-ico5{
+	background:url(../img/tuniu.gif) no-repeat -304px -635px;
+}
+.sure li .sure-ico6{
+	background:url(../img/tuniu.gif) no-repeat -304px -657px;
+}
+.sure li .sure-ico7{
+	background:url(../img/tuniu.gif) no-repeat -329px -612px;
+}
+.sure li .sure-ico8{
+	background:url(../img/tuniu.gif) no-repeat -329px -635px;
+}
+.sure li .sure-name{
+	font-size:12px;
+}
+.partner-cont .matter{
+	height:142px;
+	text-align:left;
+}
+.matter dt{
+	font-size:14px;
+	color:#666666;
+	line-height:28px;
+	font-weight:bold;
+}
+.matter dd{
+	font-size:12px;
+	color:#999999;
+	line-height:24px;
+}
+.matter .usual{
+	width:194px;
+}
+.matter .bill{
+	width:148px;
+}
+.matter .pact{
+	width:182px;
+}
+.matter .favor{
+	width:170px;
+}
+.matter .other{
+	width:160px;
+}
+.matter .tnserve{
+	width:300px;
+	height:124px;
+	background-color:#F6F6F6;
+	padding:0 20px 0 20px;
+	position:relative;
+}
+.tnserve .tn-tips{
+	width:103px;
+	height:69px;
+	background:url(../img/tn.png) no-repeat;
+	position:absolute;
+	left:243px;
+	bottom:0px;
+}
+/*partner end*/
+/*content end*/

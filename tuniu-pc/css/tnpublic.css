@@ -1,0 +1,136 @@
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+a{
+	font-size:12px;
+	color:#999999;
+}
+.roof a,.roof-box a,.login-box a,.login-box span,.topnav a,.serch a,.where span,.nav-rt dt a,.nav-rt dd a,
+.box-left a,.call a,.subnav-box .subnav-ico,.linebox .subnav-item .quality,.actical span,.tit-item .tit-box,
+.tn a,.icon-text span,.marth-item a,.chif-tit a,.hunt a,dd .zhe,.marth-item .marit,.dtl span,.day span,.price .prrt,
+.produce .moreico,.spot li span,.price span,.stub .chif-tit .chif-tmg,.cont-chif li span,.cont-rt .sale,.cont-rt .like,
+.tit-sub,.guide-cont a,.guide-cont span,.menu div,.list div{
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.sun a{
+	display:block;
+}
+.leftnav a{
+	display:block;
+}
+.mr2{
+	margin-right:2px;
+}
+.mr5{
+	margin-right:5px;
+}
+.mr6{
+	margin-right:6px;
+}
+.mr7{
+	margin-right:7px;
+}
+.mr10{
+	margin-right:10px;
+}
+.mr14{
+	margin-right:14px;
+}
+.mr15{
+	margin-right:15px;
+}
+.mr16{
+	margin-right:16px;
+}
+.mr18{
+	margin-right:18px;
+}
+.mr25{
+	margin-right:25px;
+}
+.mr80{
+	margin-right:80px;
+}
+.mb15{
+	margin-bottom:15px;
+}
+.mb5{
+	margin-bottom:5px;
+}
+.mb10{
+	margin-bottom:10px;
+}
+.ml-4{
+	margin-left:-4px;
+}
+.ml10{
+	margin-left:10px;
+}
+.ml14{
+	margin-left:14px;
+}
+.ml5{
+	margin-left:5px;
+}
+.ml15{
+	margin-left:15px;
+}
+.ml8{
+	margin-left:8px;
+}
+.ml20{
+	margin-left:20px;
+}
+.ml34{
+	margin-left:34px;
+}
+.ml35{
+	margin-left:35px;
+}
+.pt15{
+	padding-top:15px;
+}
+.pt26{
+	padding-top:26px;
+}
+.mt2{
+	margin-top:2px;
+}
+.mt10{
+	margin-top:10px;
+}
+.mt15{
+	margin-top:15px;
+}
+.mt20{
+	margin-top:20px;
+}
+.ml44{
+	margin-left:44px;
+}
+
+.bold{
+	font-weight:bold;
+}
+.mb7{
+	margin-bottom:7px;
+}
+.mb16{
+	margin-bottom:16px;
+}
+.cl999{
+	color:#999999;
+}
+.clf60{
+	color:#ff6600;
+}

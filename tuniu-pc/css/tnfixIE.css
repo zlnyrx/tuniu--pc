@@ -1,0 +1,29 @@
+/*IE6不兼容html5标签*/
+<script src="js/html5shiv.js"></script>
+	<script>
+		document.createElement('section');
+		document.createElement('header');
+		document.createElement('footer');
+		document.createElement('nav');
+	</script>
+/*IE6不支持inline-block*/
+.roof a,.login-box a,.login-box span,.serch a,.call a,.subnav-box .subnav-ico,.box7 .subnav-item .tips1,.actical span,.tn a,
+.type-rt .rt-box,.icon-text span,.marth-item a,.lg-trt a,.tit-item .tit-box{
+	*display:inline;
+	*zoom:1;
+}
+
+/*IE6下不支持margin：0 auto，所以给父级元素加text-align:center;*/
+.head .roof,.nav .topnav,.head .login,.nav .subnav,.content .banner{
+	text-align:center;
+}
+/*IE6下不支持最大最小宽度*/
+.roof .roof-box,.subnav-box .subnav-ico,.box8 .subnav-item .tips2,.box7 .subnav-item .tips1,.mico .mico-ico{
+	overflow:hidden;
+}
+.nav-lt1 .go,.nav-lt .fly,.nav-lt .house,.nav-lt .super,.nav-lt .train,.nav-lt .ship,.nav-lt .play{
+	*margin-left:0;
+}
+.main .main-left,.produce .moreico{
+	overflow:hidden;
+}

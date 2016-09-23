@@ -1,0 +1,293 @@
+
+.foot{
+	height:738px;
+	/*background-color:lightseagreen;*/
+}
+.foot .guild{
+	height:172px;
+	padding-top:20px;
+	padding-bottom:25px;
+	border-top:1px solid #d8d8d8;
+	background-color:#F5F5F5;
+}
+.guild .guild-box{
+	width:993px;
+	margin:0 auto;
+}
+.guild-box .goway{
+	width:250px;
+	height:172px;
+	border-right:1px dashed #D8D8D8;
+}
+.guild-box .find{
+	width:150px;
+}
+.goway .goway-ico{
+	width:36px;
+	height:35px;
+	background:url(../img/tuniu.gif) no-repeat -325px -164px;
+	margin-right:10px;
+	display:inline-block;
+}
+.goway span,.find span,.app span{
+	font-size:14px;
+	color:#666666;
+	font-weight:bold;
+}
+.goway dd,.find dd{
+	width:66px;
+	font-size:12px;
+	color:#999999;
+	line-height:18px;
+}
+.find .goway-ico{
+	width:36px;
+	height:35px;
+	background:url(../img/tuniu.gif) no-repeat -326px -199px;
+	margin-right:10px;
+	display:inline-block;
+}
+.guild-box .app{
+	width:200px;
+}
+.app .app-ico{
+	width:36px;
+	height:35px;
+	background:url(../img/tuniu.gif) no-repeat -326px -234px;
+	margin-right:10px;
+	display:inline-block;
+}
+.app .code{
+	width:82px;
+	height:82px;
+	background:url(../img/tuniu.gif) no-repeat -235px -320px;
+	margin-top:60px;
+	margin-left:36px;
+}
+.app dd{
+	width:90px;
+	font-size:12px;
+	color:#999999;
+	line-height:18px;
+	margin-left:35px;
+}
+.foot .merit{
+	width:100%;
+	height:62px;
+	background-color:#60CA6E;
+}
+.merit .merit-box{
+	width:990px;
+	height:62px;
+	margin:0 auto;
+}
+.merit-box li{
+	width:183px;
+	height:62px;
+}
+.merit-box li .merit-pic{
+	width:49px;
+	height:62px;
+	background:url(../img/tuniu.gif) no-repeat -236px -530px;
+}
+.merit-box li .merit-pic1{
+	width:49px;
+	height:62px;
+	background:url(../img/tuniu.gif) no-repeat -169px -596px;
+}
+.merit-box li .merit-pic2{
+	width:49px;
+	height:62px;
+	background:url(../img/tuniu.gif) no-repeat -168px -658px;
+}
+.merit-box li .merit-pic3{
+	width:60px;
+	height:62px;
+	background:url(../img/tuniu.gif) no-repeat -219px -596px;
+}
+.merit-box li .merit-msg{
+	width:84px;
+	height:62px;
+	line-height:62px;
+	text-align:left;
+	font-size:20px;
+	color:#fff;
+	font-weight:bold;
+}
+.merit-box li .merit-ct{
+	width:50px;
+	height:62px;
+	line-height:62px;
+	text-align:left;
+	font-size:12px;
+	color:#fff;
+}
+.merit-box .li{
+	width:200px;
+	height:62px;
+}
+.merit-box li .merit-msg1{
+	width:140px;
+	height:20px;
+	line-height:62px;
+	text-align:left;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+}
+.merit-box li .merit-ct1{
+	width:140px;
+	height:20px;
+	line-height:62px;
+	text-align:left;
+	font-size:20px;
+	color:#fff;
+}
+.foot .join{
+	width:990px;
+	height:140px;
+	margin:0 auto;
+	/*background-color:#284a57;*/
+}
+.join ul{
+	height:59px;
+}
+.join ul li{
+	width:202px;
+	height:60px;
+	border:1px solid #D8D8D8;
+	padding:0 16px 0 20px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.join .join-pic{
+	width:84px;
+	height:60px;
+}
+.join .join-msg{
+	width:118px;
+	height:46px;
+	padding-top:15px;
+	font-size:12px;
+}
+.join-msg span{
+	display:block;
+	color:#999;
+}
+.join .join-img{
+	width:990px;
+	height:59px;
+	position:relative;
+}
+.join .copy-box{
+	width:50px;
+	height:28px;
+	position:absolute;
+	right:46px;
+	top:25px;
+}
+.copy-box a{
+	display:block;
+	font-size:12px;
+}
+.green{
+	color:#099C17;
+}
+.black{
+	color:#000;
+}
+.foot .copy{
+	width:1000px;
+	height:93px;
+	margin:0 auto;
+	padding:10px 0 8px;
+	font-size:12px;
+	color:#777;
+	/*background-color:#8361e6;*/
+}
+.copy .tel{
+	height:24px;
+	line-height:24px;
+	text-align:center;
+}
+.copy .num{
+	width:822px;
+	height:24px;
+	line-height:24px;
+	margin-left:89px;
+}
+.copy .about{
+	width:990px;
+	height:24px;
+	line-height:24px;
+	margin-left:5px;
+}
+.about a{
+	color:#777;
+}
+.about .tu a{
+	color:#ff0000;
+}
+.about li{
+	margin-left:14px;
+}
+.copy .cop{
+	width:720px;
+	height:24px;
+	line-height:24px;
+	margin-left:140px;
+}
+.foot .newest{
+	height:83px;
+	/*background-color:#2b098c;*/
+}
+.newest ul{
+	width:551px;
+	height:48px;
+	margin:0 auto;
+}
+.newest ul li{
+	width:177px;
+	height:40px;
+	position:relative;
+}
+.newest li div{
+	font-size:12px;
+	position:absolute;
+	left:89px;
+	top:15px;
+}
+.newest .new{
+	width:1000px;
+	height:35px;
+	margin:0 auto;
+	font-size:12px;
+}
+.foot .faith{
+	width:1200px;
+	height:59px;
+	margin:0 auto;
+	border-bottom:1px solid #4E4E4E;
+	/*background-color:#514d5d;*/
+}
+.foot .friendlink{
+	width:970px;
+	height:64px;
+	margin:0 auto;
+	/*background-color:#514d5d;*/
+}
+.friendlink .link{
+	width:970px;
+	height:30px;
+	margin-top:12px;
+	font-size:12px;
+}
+.link a,.more a{
+	display:inline-block;
+}
+.friendlink .more{
+	width:970px;
+	height:34px;
+	padding-left:60px;
+	font-size:12px;
+}
